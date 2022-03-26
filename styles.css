@@ -1,0 +1,9 @@
+body {
+  font-family: monospace;
+  text-align: center;
+}
+
+div {
+  font-size: 10rem;
+  padding: 20px;
+}
