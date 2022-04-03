@@ -7,7 +7,7 @@ if (!day in [1, 2, 3, 4, 5]) {
   $(".weekdays").hide();
 }
 
-if (day in [1, 4]) {
+if (day !== 1 || day !== 4) {
   $(".mon-thur").hide();
 }
 
